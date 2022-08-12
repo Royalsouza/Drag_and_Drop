@@ -1,0 +1,33 @@
+body{
+    background: rgb(167, 127, 206);
+}
+.imgBox{
+    background-image: url("img.jpeg");
+    position: relative;
+    top: 5px;
+    left: 5px;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+.whiteBox{
+    height: 160px;
+    width: 160px;
+    margin: 20px;
+    background-color: antiquewhite;
+    display: inline-block ;
+    border: black;
+    border-radius: 10px;
+}
+
+.hold{
+    border: solid 2px rebeccapurple;
+}
+.hide{
+    display: none;
+}
+
+.dashed{
+    background: violet;
+    border-style: dashed;
+}
